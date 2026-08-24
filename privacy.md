@@ -17,3 +17,12 @@ This website does **not** use cookies.
 ## Linked services
 
 This website contains links to other services. If you follow these links, you should become aware of their terms of service.
+
+## Event registration and attendee coordination
+
+If you register for an INDoS event, your submitted information is visible only to the
+co-organisers, is not published, and is used solely to run that event. If you separately
+email us to be put in touch with another attendee (for example, to coordinate shared
+accommodation), we only ever share your contact details after checking with you and the
+other person first — never automatically or without asking. To access or delete your
+data, contact [oscar.esteban@hes-so.ch](mailto:oscar.esteban@hes-so.ch).

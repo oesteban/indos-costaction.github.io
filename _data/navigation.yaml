@@ -31,6 +31,9 @@
 - title: Training
   url: /training
   match: training
+- title: Accommodation
+  url: /accommodation
+  match: accommodation
 - title: Join
   url: /join
   match: join

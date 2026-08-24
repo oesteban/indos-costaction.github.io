@@ -1,0 +1,80 @@
+# Candidate areas for the WG3 Training School (Madrid, 30 Sep - 2 Oct 2026).
+#
+# Coordinates are real (checked against Wikipedia / OpenStreetMap), but the
+# price bands and travel notes are qualitative estimates for a first launch,
+# not verified against live listings. Confirm/adjust before relying on this
+# for a large group, ideally with local input (e.g. Guiomar Niso).
+#
+# price_band legend: "€" = most affordable of this set, "€€" = moderate,
+# still well below booking right at the venue (Salamanca/Chamartín district).
+
+- id: venue
+  type: venue
+  name: "Training School venue (Cajal Institute, C/ Serrano 113)"
+  lat: 40.4412
+  lon: -3.6862
+
+- id: cuatro-caminos
+  type: area
+  name: Cuatro Caminos
+  metro_lines: [6]
+  nearest_station: Cuatro Caminos
+  lat: 40.4470
+  lon: -3.7040
+  stops_to_venue: "About 3 stops on Line 6 to Avenida de América, then a short walk to the venue"
+  price_band: "€"
+  notes: "The most affordable of these areas: a busy, well-connected hub (also on Lines 1 and 2), near Ciudad Universitaria and popular with students."
+  booking_url: "https://www.booking.com/searchresults.html?ss=Cuatro+Caminos%2C+Madrid%2C+Spain&checkin=2026-09-29&checkout=2026-10-03&group_adults=2&no_rooms=1"
+  airbnb_url: "https://www.airbnb.com/s/Cuatro-Caminos--Madrid--Spain/homes?checkin=2026-09-29&checkout=2026-10-03&adults=2"
+
+- id: guzman-el-bueno
+  type: area
+  name: "Guzmán el Bueno"
+  metro_lines: [6, 7]
+  nearest_station: "Guzmán el Bueno"
+  lat: 40.4464
+  lon: -3.7123
+  stops_to_venue: "Interchange of Lines 6 and 7 — about 4 stops to Avenida de América, then a short walk to the venue"
+  price_band: "€"
+  notes: "On the Vallehermoso / Ciudad Universitaria border. Both lines pass through here, so there are two direct routes to the venue."
+  booking_url: "https://www.booking.com/searchresults.html?ss=Guzm%C3%A1n+el+Bueno%2C+Madrid%2C+Spain&checkin=2026-09-29&checkout=2026-10-03&group_adults=2&no_rooms=1"
+  airbnb_url: "https://www.airbnb.com/s/Guzman-el-Bueno--Madrid--Spain/homes?checkin=2026-09-29&checkout=2026-10-03&adults=2"
+
+- id: canal
+  type: area
+  name: Canal
+  metro_lines: [7]
+  nearest_station: Canal
+  lat: 40.4384
+  lon: -3.7043
+  stops_to_venue: "3 stops on Line 7 to Avenida de América, then a short walk to the venue"
+  price_band: "€€"
+  notes: "Quiet, residential Chamberí streets — a bit pricier than Cuatro Caminos, but still well below the Salamanca district right around the venue."
+  booking_url: "https://www.booking.com/searchresults.html?ss=Canal%2C+Madrid%2C+Spain&checkin=2026-09-29&checkout=2026-10-03&group_adults=2&no_rooms=1"
+  airbnb_url: "https://www.airbnb.com/s/Canal--Madrid--Spain/homes?checkin=2026-09-29&checkout=2026-10-03&adults=2"
+
+- id: alonso-cano
+  type: area
+  name: "Alonso Cano"
+  metro_lines: [7]
+  nearest_station: "Alonso Cano"
+  lat: 40.4387
+  lon: -3.6977
+  stops_to_venue: "2 stops on Line 7 to Avenida de América, then a short walk to the venue"
+  price_band: "€€"
+  notes: "Similar profile to Canal: residential Chamberí, close to Nuevos Ministerios' shops and restaurants."
+  booking_url: "https://www.booking.com/searchresults.html?ss=Alonso+Cano%2C+Madrid%2C+Spain&checkin=2026-09-29&checkout=2026-10-03&group_adults=2&no_rooms=1"
+  airbnb_url: "https://www.airbnb.com/s/Alonso-Cano--Madrid--Spain/homes?checkin=2026-09-29&checkout=2026-10-03&adults=2"
+
+- id: gregorio-maranon
+  type: area
+  name: "Gregorio Marañón"
+  metro_lines: [7]
+  nearest_station: "Gregorio Marañón"
+  lat: 40.4380
+  lon: -3.6912
+  stops_to_venue: "1 stop on Line 7 to Avenida de América, then a short walk to the venue"
+  price_band: "€€"
+  notes: "The closest of these to the venue, right on the Chamberí/Salamanca edge — expect prices at the higher end of this list."
+  booking_url: "https://www.booking.com/searchresults.html?ss=Gregorio+Mara%C3%B1%C3%B3n%2C+Madrid%2C+Spain&checkin=2026-09-29&checkout=2026-10-03&group_adults=2&no_rooms=1"
+  airbnb_url: "https://www.airbnb.com/s/Gregorio-Maranon--Madrid--Spain/homes?checkin=2026-09-29&checkout=2026-10-03&adults=2"

@@ -1,0 +1,215 @@
+/* Accommodation page styles */
+
+/* ── Map ──────────────────────────────────────────────────────────────── */
+
+.accommodation-map {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+/* Prevent global box-sizing from displacing Leaflet tiles and markers */
+.accommodation-map *,
+.accommodation-map *::before,
+.accommodation-map *::after {
+  box-sizing: content-box;
+}
+
+/* Leaflet popups */
+
+.accommodation-popup h4 {
+  margin: 0 0 0.3rem;
+  font-size: 1rem;
+  color: var(--logo-blue);
+}
+
+.accommodation-popup p {
+  margin: 0.15rem 0;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+/* ── Filter bar ───────────────────────────────────────────────────────── */
+
+.accommodation-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.25rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border: 1px solid #e9ecef;
+}
+
+.accommodation-filters label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 0;
+}
+
+.accommodation-filters input,
+.accommodation-filters select {
+  font-size: 0.95rem;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+
+.accommodation-filters input:focus,
+.accommodation-filters select:focus {
+  outline: none;
+  border-color: var(--logo-blue);
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+}
+
+.accommodation-search {
+  flex: 1 1 260px;
+  min-width: 200px;
+}
+
+.accommodation-search input {
+  width: 100%;
+}
+
+.accommodation-filter-line {
+  flex: 0 1 160px;
+}
+
+.accommodation-filter-line select {
+  width: 100%;
+}
+
+.accommodation-filter-band {
+  flex: 0 1 160px;
+}
+
+.accommodation-filter-band select {
+  width: 100%;
+}
+
+.accommodation-count {
+  font-size: 0.85rem;
+  color: #777;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* ── Area cards grid ──────────────────────────────────────────────────── */
+
+.accommodation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+.accommodation-card {
+  background: #f8f9fa;
+  padding: 1.25rem;
+  border-radius: 10px;
+  border-left: 4px solid var(--logo-turquoise);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.accommodation-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.accommodation-card.highlight {
+  border-left-color: var(--logo-purple);
+  background: #f3eef9;
+}
+
+.accommodation-card h4 {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+  color: var(--logo-blue);
+}
+
+.accommodation-card .accommodation-card__meta {
+  font-size: 0.88rem;
+  color: #777;
+  margin: 0 0 0.4rem;
+}
+
+.accommodation-card .accommodation-card__notes {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0 0 0.5rem;
+  line-height: 1.4;
+}
+
+.accommodation-card .accommodation-card__band {
+  font-size: 0.88rem;
+  margin: 0 0 0.6rem;
+}
+
+.accommodation-card__links {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.accommodation-card__links a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  background: var(--logo-blue);
+  color: #fff;
+  text-decoration: none;
+}
+
+.accommodation-card__links a:hover {
+  filter: brightness(0.92);
+}
+
+.accommodation-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.accommodation-tag {
+  display: inline-block;
+  font-size: 0.78rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 12px;
+  background: var(--logo-turquoise);
+  color: #fff;
+  font-weight: 500;
+}
+
+.accommodation-card.hidden {
+  display: none;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .accommodation-map {
+    height: 350px;
+  }
+
+  .accommodation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .accommodation-filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .accommodation-count {
+    margin-left: 0;
+  }
+}

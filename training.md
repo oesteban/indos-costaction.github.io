@@ -19,6 +19,8 @@ in-person training.
 
 - **When:** **30 September – 2 October 2026**, a three-day meeting, 09:00–18:00 each day.
 - **Where:** Room COLABORA, Espacio Converge, Campus Serrano del CSIC, c/ Serrano 113 posterior, Madrid, Spain (see [venue](#venue))
+- **Where to stay:** the nearby student residence has no capacity for this cohort — see
+  [accommodation](/accommodation) for affordable areas well connected via Metro.
 - **Cost:** Nothing to attend, and **travel and subsistence are covered** for eligible
   participants (see [reimbursement](#reimbursement)).
 
@@ -53,6 +55,11 @@ Room **COLABORA**, **Espacio Converge**, Campus Serrano del CSIC — C/ Serrano 
 <div class="map-embed">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.6433037257525!2d-3.6862125000000003!3d40.441207299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e91f36efad%3A0x22fd33292c016bd2!2sC.%20de%20Serrano%2C%20113%2C%20Chamart%C3%ADn%2C%2028006%20Madrid%2C%20Spain!5e1!3m2!1sen!2sch!4v1784190665485!5m2!1sen!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
+
+**Where to stay.** The student residence near the venue has no spare capacity for this
+cohort. See [accommodation](/accommodation) for affordable areas well connected to the
+venue via Metro Lines 6 and 7, and email us if you'd like help finding other attendees
+to split an apartment with.
 
 ## Programme
 
